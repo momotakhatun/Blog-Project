@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Design With Bootstrap 5</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">MK Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-4">
+      <img src="image/coding img.jpg" alt="#" class="featured-image" />
+    </div>
+    <!-- Main section -->
+    <main class="container mb-5">
+      <div class="row">
+        <!-- Article list -->
+        <div class="col-lg-8">
+          <h3 class="text-capitalize">Title of the Articles</h3>
+          <!-- Articles Content -->
+          <article class="article">
+            <h3>Summary</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+              ipsam tempore quibusdam a maiores dolores ab minima quas delectus,
+              eligendi temporibus similique! Enim esse rem deleniti dolorem,
+              neque illum? Nemo.
+            </p>
+            <h3>Table of content</h3>
+            <ul>
+              <a href="#"><li>Item One</li></a>
+              <a href="#"><li>Item Two</li></a>
+              <a href="#"><li>Item Three</li></a>
+            </ul>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              odit eius sit magnam dignissimos. Incidunt iure adipisci odio
+              totam doloremque dolore nesciunt, quidem voluptatem quod iusto,
+              numquam modi aperiam qui ad consectetur eos ratione dolorem?
+            </p>
+            <h2 class="mt-3">Item 1</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique eos nihil eaque esse quaerat unde qui minima sed, atque
+              omnis a eum reiciendis harum, sunt veniam voluptatem saepe.
+              Maxime, nam. Voluptatum, dolorem!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              commodi reiciendis cupiditate necessitatibus provident esse nemo
+              quo, illo qui voluptas optio architecto ea doloremque quaerat
+              consequuntur rerum hic, officiis est obcaecati officia atque quis
+              cumque nulla quos. Consequuntur, accusantium esse.
+            </p>
+            <img src="image/coding-1853305__340.jpg" alt="#" />
+            <h2 class="mt-3">Item 2</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique eos nihil eaque esse quaerat unde qui minima sed, atque
+              omnis a eum reiciendis harum, sunt veniam voluptatem saepe.
+              Maxime, nam. Voluptatum, dolorem!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              commodi reiciendis cupiditate necessitatibus provident esse nemo
+              quo, illo qui voluptas optio architecto ea doloremque quaerat
+              consequuntur rerum hic, officiis est obcaecati officia atque quis
+              cumque nulla quos. Consequuntur, accusantium esse.
+            </p>
+            <img src="image/coding-image.jpg" alt="#" />
+            <h2 class="mt-3">Item 3</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique eos nihil eaque esse quaerat unde qui minima sed, atque
+              omnis a eum reiciendis harum, sunt veniam voluptatem saepe.
+              Maxime, nam. Voluptatum, dolorem!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              commodi reiciendis cupiditate necessitatibus provident esse nemo
+              quo, illo qui voluptas optio architecto ea doloremque quaerat
+              consequuntur rerum hic, officiis est obcaecati officia atque quis
+              cumque nulla quos. Consequuntur, accusantium esse.
+            </p>
+            <img src="image/images (2).jpg" alt="#" />
+            <span><img src="image/download (4).jpg" alt="#" /></span>
+          </article>
+        </div>
+        <!-- Right Side bar -->
+        <div class="col-lg-4">
+          <h3>Advertisement</h3>
+          <div class="mt-5">
+            <img
+              src="https://picsum.photos/900"
+              class="w-100 h-auto"
+              alt="Advertisement"
+            />
+          </div>
+          <h3 class="mt-4">Popular Articles</h3>
+          <div class="mt-3">
+            <!-- list item 1 -->
+            <ol class="list-group list-group-numbered">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Subheading</div>
+                  Lorem ipsum dolor sit.
+                </div>
+                <span class="badge bg-primary rounded-pill">14</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Subheading</div>
+                  Lorem ipsum dolor sit.
+                </div>
+                <span class="badge bg-primary rounded-pill">14</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Subheading</div>
+                  Lorem ipsum dolor sit.
+                </div>
+                <span class="badge bg-primary rounded-pill">14</span>
+              </li>
+            </ol>
+            <!-- list item 2 -->
+            <ul class="list-group list-group-flush mt-3">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+            </ul>
+          </div>
+          <div class="mt-5">
+            <img
+              src="https://picsum.photos/1000"
+              class="w-100 h-auto"
+              alt="Advertisement"
+            />
+          </div>
+          <div class="mt-5">
+            <img
+              src="image/developer-coding-in-php.jpg"
+              class="w-100 h-auto"
+              alt="Advertisement"
+            />
+          </div>
+        </div>
+
+        <!-- Article Pagination -->
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center mt-5">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <!-- Footer Area -->
+    <footer class="w-100 bg-dark">
+      <div class="container text-white py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam tempore, dolorem recusandae, nostrum laborum
+              consequatur ipsa cum veritatis amet ratione eligendi possimus qui
+              delectus nesciunt.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <ul
+                class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 text-secondary"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
